@@ -1,0 +1,18 @@
+.header {
+  &__bg {
+    background-color: #f19d2f;
+  }
+
+  &__title {
+    font-size: 12.69px;
+    line-height: 12.15px;
+    font-weight: 400;
+    color: #2c2b31;
+  }
+
+  &__icon {
+    width: 20px;
+    height: 9px;
+    padding: 0 5px;
+  }
+}
