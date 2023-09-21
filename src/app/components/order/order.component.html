@@ -1,0 +1,28 @@
+<section class="order container mx-auto bg">
+  <form [formGroup]="form" (ngSubmit)="submit()" class="flex justify-between">
+    <div class="order__select relative">
+      <p class="text-center order__hint">color</p>
+      <mat-form-field>
+        <mat-select formControlName="colorValue">
+          <mat-option *ngFor="let color of colors" [value]="color.value">{{
+            color.name
+          }}</mat-option>
+        </mat-select>
+      </mat-form-field>
+      <img class="select__arrow" src="/assets/images/arrow.png" alt="arrow" />
+    </div>
+
+    <div class="order__select relative">
+      <p class="text-center order__hint">size</p>
+      <mat-form-field>
+        <mat-select formControlName="sizeValue">
+          <mat-option *ngFor="let size of sizes" [value]="size.value">{{
+            size.size
+          }}</mat-option>
+        </mat-select>
+      </mat-form-field>
+      <img class="select__arrow" src="/assets/images/arrow.png" alt="arrow" />
+    </div>
+  </form>
+  <a href="https://www.youtube.com/" class="submit uppercase">buy now</a>
+</section>

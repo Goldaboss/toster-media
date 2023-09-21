@@ -1,0 +1,77 @@
+.mat-tab-group {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+:host ::ng-deep .mat-tab-label {
+  min-width: 80px !important;
+  height: 66px;
+  padding: 0;
+  margin: 0;
+}
+
+:host ::ng-deep .mat-tab-labels {
+  justify-content: space-around;
+}
+
+:host ::ng-deep .mat-tab-header-pagination {
+  display: none !important;
+}
+
+:host ::ng-deep .mat-tab-header {
+  padding-top: 20px;
+  border: none;
+}
+
+:host ::ng-deep mat-ink-bar {
+  display: none;
+}
+
+.bg {
+  background-color: #f0f0f0;
+}
+.main {
+  padding: 11px 16px 20px 16px;
+
+  &__title {
+    font-size: 19.17px;
+    font-weight: 700;
+    line-height: 18.34px;
+    color: #2c2b31;
+    padding-bottom: 20px;
+  }
+}
+.header {
+  font-weight: 400;
+  font-size: 12.07px;
+  line-height: 11.55px;
+  padding-bottom: 20px;
+
+  &__score {
+    font-size: 12.07px;
+    line-height: 11.55px;
+    color: #2c2b31;
+  }
+
+  &__recommendation {
+    font-size: 12.07px;
+    line-height: 11.55px;
+    color: #37d997;
+  }
+}
+
+.body {
+  font-weight: 400;
+  font-size: 15.29px;
+  line-height: 14.63px;
+
+  &__info {
+    padding-bottom: 12px;
+  }
+  &__icon {
+    width: 20px;
+    height: 9px;
+    padding: 0 5px;
+  }
+}
