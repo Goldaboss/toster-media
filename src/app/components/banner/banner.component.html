@@ -1,0 +1,23 @@
+<section class="banner">
+  <div class="container mx-auto relative">
+    <img
+      ngSrc="/assets/images/banner.png"
+      height="281"
+      width="390"
+      alt="shoes"
+    />
+
+    <div class="limit-time absolute flex flex-col justify-around">
+      <p class="limit-time__text text-center uppercase">Limited offer</p>
+      <p class="limit-time__clock text-center">
+        {{ limitTime }}
+      </p>
+    </div>
+    <div class="price absolute flex flex-col justify-around">
+      <p class="line-through decoration-yellow-600 price__old text-center">
+        R {{ oldPrice }}
+      </p>
+      <p class="price__new text-center">R {{ newPrice }}</p>
+    </div>
+  </div>
+</section>

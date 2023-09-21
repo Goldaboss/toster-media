@@ -1,0 +1,42 @@
+.banner {
+}
+.limit-time {
+  font-weight: 700;
+  width: 103px;
+  height: 58px;
+  left: 13px;
+  bottom: 14px;
+  background-color: #f19d2f;
+  color: #ffffff;
+  border-radius: 5px;
+
+  &__text {
+    font-size: 10.6px;
+    line-height: 10.14px;
+  }
+  &__clock {
+    font-size: 21.25px;
+    line-height: 20.34px;
+  }
+}
+
+.price {
+  font-weight: 700;
+  width: 116px;
+  height: 58px;
+  bottom: 14px;
+  right: 13px;
+  background-color: #37d997;
+  color: #ffffff;
+  border-radius: 5px;
+
+  &__old {
+    font-size: 18.08px;
+    line-height: 17.3px;
+  }
+
+  &__new {
+    font-size: 22.3px;
+    line-height: 21.34px;
+  }
+}
