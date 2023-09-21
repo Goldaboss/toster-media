@@ -1,4 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('fonts/roboto/stylesheet.css');
 @import 'src/app/styles/common';
+
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, 'Gotham Pro', sans-serif;
+}
